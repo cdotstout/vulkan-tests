@@ -1,0 +1,5 @@
+Needs libvulkan-dev, libgtest-dev
+
+Build with:
+
+clang++ -o vkcopy vkcopy.cc vulkan_context.cc utils.cc  -DVULKAN_HPP_NO_EXCEPTIONS  -std=c++17 -lvulkan -lgtest -lpthread
